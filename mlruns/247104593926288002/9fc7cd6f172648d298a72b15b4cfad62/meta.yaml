@@ -1,0 +1,15 @@
+artifact_uri: /mnt/d/Assignment1/Assignment3.2/mlflow-test/mlruns/247104593926288002/9fc7cd6f172648d298a72b15b4cfad62/artifacts
+end_time: 1731399077193
+entry_point_name: ''
+experiment_id: '247104593926288002'
+lifecycle_stage: active
+run_id: 9fc7cd6f172648d298a72b15b4cfad62
+run_name: kindly-perch-407
+run_uuid: 9fc7cd6f172648d298a72b15b4cfad62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731399042789
+status: 3
+tags: []
+user_id: chandrasekar_tiger
