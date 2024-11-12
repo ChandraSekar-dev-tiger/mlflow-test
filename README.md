@@ -36,6 +36,6 @@ print("Save to: {}".format(mlflow.get_artifact_uri()))
 mlflow.sklearn.log_model(lr, 'model')
 ```
 
-5. This is the sample view of the mlflow UI with 2 runs.
+5. This is the sample view of the mlflow UI.
 
 ![Screenshot 2024-11-11 203049](https://github.com/user-attachments/assets/c9540562-9fa3-4de1-839b-c6e56f989e81)
