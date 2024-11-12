@@ -14,7 +14,11 @@ mlflow server --backend-store-uri <foldername> --default-artifact-root <folderna
 
 Replace the `<foldername>` with the directory where you want to store metadata and artifacts.
 
-3. You can set you experiment with some specific or all will be logged/tracked in "Default" name.
+3. This is the sample view of the mlflow UI.
+
+![Screenshot 2024-11-11 203049](https://github.com/user-attachments/assets/c9540562-9fa3-4de1-839b-c6e56f989e81)
+
+4. You can set you experiment with some specific or all will be logged/tracked in "Default" name.
 
 ```py
 mlflow.set_experiment(<experiment_name>)
@@ -22,7 +26,7 @@ mlflow.set_experiment(<experiment_name>)
 
 Replace the `<experiment_name>` with the experiment name of your choice.
 
-4. After the training has been completed, we can log all the metrics, params and model in mlflow.
+5. After the training has been completed, we can log all the metrics, params and model in mlflow.
 
 ```py
 mlflow.log_param(key="alpha", value=alpha)
@@ -35,7 +39,3 @@ print("Save to: {}".format(mlflow.get_artifact_uri()))
 
 mlflow.sklearn.log_model(lr, 'model')
 ```
-
-5. This is the sample view of the mlflow UI.
-
-![Screenshot 2024-11-11 203049](https://github.com/user-attachments/assets/c9540562-9fa3-4de1-839b-c6e56f989e81)
